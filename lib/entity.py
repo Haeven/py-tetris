@@ -71,15 +71,15 @@ class Tetris:
       while not self.block_intersects():
           self.shape.y += 1
       self.shape.y -= 1
-      self.freeze()
+      self.place_block()
 
   def go_down(self):
       self.shape.y += 1
       if self.block_intersects():
           self.shape.y -= 1
-          self.freeze()
+          self.place_block()
 
-  def freeze(self):
+  def place_block(self):
       for i in range(4):
           for j in range(4):
               if i * 4 + j in self.shape.block():
