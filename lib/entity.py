@@ -12,12 +12,15 @@ class Tetris:
         self.shape = None
 
     def initialize_grid(self):
+        # Initialize a grid corresponding to the width and height variables
         self.grid = [[0] * self.width for _ in range(self.height)]
 
     def new_shape(self):
         self.shape = Shape(3, 0)
 
     def block_intersects(self):
+        # Iterate over all cells in the 4x4 matrix to check if cell is out of height/width bounds 
+        # or if cell intersects with another block grid
         for i in range(4):
             for j in range(4):
                 if i * 4 + j in self.shape.block():
@@ -27,6 +30,7 @@ class Tetris:
                         or j + self.shape.x < 0
                         or self.grid[i + self.shape.y][j + self.shape.x] > 0
                     ):
+                        # Check grid area surrounding our block is not allocated to another block
                         return True
         return False
 
