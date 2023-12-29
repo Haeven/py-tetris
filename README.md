@@ -17,33 +17,32 @@
 # Table of Contents
 
 - [Description](#description)
-- [Installation](#installation)
+- [Installation](#install)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
-- [About the author](#about-the-author)
-- [Contribution](#contribution)
-- [Support Us](#show-your-support)
+- [About info](#Author-info)
+- [Support](#show-your-support)
 - [License](#license)
+
 
 # Description
 
 > py-tetris (Tetris in Python)
 
-# Installation
+# Install
 If you do not already have it installed, follow (this guide)[https://realpython.com/installing-python/] before moving on
 
-# Install pygame
+## Install pygame
 ```bash
 pip3 install pygame
 ```
 
-# Run the program
+# Usage
 Use your CLI to `cd` into `/lib` and run the following:
 ```bash
 python3 __init__.py
 ```
 
-# Have fun!
+## Have fun!
 Now you can play your local version of my rendition of Tetris written entirely in Python 
 
 # Author info
