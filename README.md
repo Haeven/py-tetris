@@ -3,10 +3,10 @@
     <a href = 'https://code.visualstudio.com/'>
         <img alt ='Visual Studio Code' src='https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg'/>
     </a>
-    <a href="https://github.com/Haeven/py-tetris-wasm" target="_blank">
+    <a href="https://github.com/Haeven/py-tetris" target="_blank">
         <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
     </a>
-    <a href="https://github.com/Haeven/py-tetris-wasm/blob/main/LICENSE">
+    <a href="https://github.com/Haeven/py-tetris/blob/main/LICENSE">
         <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg">
     </a>
     <a href="https://twitter.com/hvndevs" target="_blank">
@@ -60,7 +60,7 @@ Give a ⭐️ star if this project helped you!
 # License
 
 Copyright © 2023 [Haeven Dickerson](https://github.com/Haeven).<br />
-This project is [MIT](https://github.com/Haeven/py-tetris-wasm/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/Haeven/py-tetris/blob/main/LICENSE) licensed.
 
 ---
 
